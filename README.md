@@ -4,6 +4,8 @@ _Your Internet Refreshed_
 Remember when the web was simple? We bring you faster loading without Big Tech or AI tracking.
 Browse with built-in ad blockers, safer social apps, private search & better security.
 
+**This is still in a prerelease / prototype phase. Changes will be made, things will be broken**
+
 ## Connecting Social Communities
 We designed a gorgeous dashboard that seamlessly connects you with a global ecosystem, integrating with apps like [PrivacySafe Social](https://privacysafe.social). Join a thriving community of over 1,000 servers and millions of users on the decentralized Mastodon network. RefreshView Browser is still in alpha testing, but you can [Sign Up for PrivacySafe Social Now](https://privacysafe.social).
 
