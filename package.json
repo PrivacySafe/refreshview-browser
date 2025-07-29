@@ -1,6 +1,7 @@
 {
-  "name": "min",
-  "productName": "Min",
+  "name": "refreshview",
+  "productName": "RefreshView",
+  "homepage": "https://refreshview.app",
   "author": "PalmerAL",
   "version": "1.35.1",
   "description": "A fast, minimal browser that protects your privacy",
@@ -85,6 +86,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/minbrowser/min.git"
+    "url": "https://github.com/PrivacySafe/refreshview-browser/min.git"
   }
 }

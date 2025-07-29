@@ -26,7 +26,7 @@ crashReporter.start({
 })
 
 if (process.argv.some(arg => arg === '-v' || arg === '--version')) {
-  console.log('Min: ' + app.getVersion())
+  console.log('RefreshView: ' + app.getVersion())
   console.log('Chromium: ' + process.versions.chrome)
   process.exit()
 }
@@ -174,7 +174,7 @@ function createWindow (customArgs = {}) {
   }
 
   // make the bounds fit inside a currently-active screen
-  // (since the screen Min was previously open on could have been removed)
+  // (since the screen RefreshView was previously open on could have been removed)
   // see: https://github.com/minbrowser/min/issues/904
   var containingRect = electron.screen.getDisplayMatching(bounds).workArea
 
@@ -367,7 +367,7 @@ app.on('ready', function () {
   const newWin = createWindow()
 
   getWindowWebContents(newWin).on('did-finish-load', function () {
-    // if a URL was passed as a command line argument (probably because Min is set as the default browser on Linux), open it.
+    // if a URL was passed as a command line argument (probably because RefreshView is set as the default browser on Linux), open it.
     handleCommandLineArguments(process.argv)
 
     // there is a URL from an "open-url" event (on Mac)
