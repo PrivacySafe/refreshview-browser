@@ -20,6 +20,14 @@ Download RefreshView from the [releases page](https://github.com/PrivacySafe/ref
 
 ## Screenshots
 
+<img alt="PrivacySafe Search, your worry-free search engine." src="docs/refreshview_browser02_1200px.png" width="650"/>
+
+<img alt="Protect your browsing with strong ad blockers." src="docs/refreshview_browser03_1200px.png" width="650"/>
+
+<img alt="PrivacySafe Social, your social space in RefreshView." src="docs/refreshview_browser01_1200px.png" width="650"/>
+
+<img alt="The suite of PrivacySafe apps." src="docs/refreshview_browser00_1200px.png" width="650"/>
+
 <img alt="The search bar, showing information from DuckDuckGo" src="docs/searchbar_duckduckgo_answers.png" width="650"/>
 
 <img alt="The Tasks Overlay" src="docs/tasks.png" width="650"/>
