@@ -77,8 +77,8 @@ In order to build RefreshView from source, follow the installation instructions 
 - `npm run buildMacIntel`
 - `npm run buildMacArm`
 - `npm run buildDebian`
-- `npm run buildRaspi` (for 32-bit Raspberry Pi)
-- `npm run buildLinuxArm64` (for 64-bit Raspberry Pi or other ARM Linux)
+<!-- - `npm run buildRaspi` (for 32-bit Raspberry Pi) -->
+<!-- - `npm run buildLinuxArm64` (for 64-bit Raspberry Pi or other ARM Linux) -->
 - `npm run buildRedhat`
 
 Depending on the platform you are building for, you may need to install additional dependencies:
