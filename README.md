@@ -51,7 +51,7 @@ You can find prebuilt binaries for RefreshView [here](https://github.com/Privacy
 
 - To install the .deb file, use `sudo dpkg -i /path/to/download`
 - To install the RPM build, use `sudo rpm -i /path/to/download --ignoreos`
-- On Arch Linux install from [AUR](https://aur.archlinux.org/packages/min-browser-bin).
+<!-- - On Arch Linux install from [AUR](https://aur.archlinux.org/packages/min-browser-bin). -->
 <!-- - On Raspberry Pi, you can install RefreshView from [Pi-Apps](https://github.com/Botspot/pi-apps). -->
 
 ## Getting Started
@@ -118,12 +118,6 @@ If you're experiencing a bug or have a suggestion for how to improve RefreshView
 - Make a pull request with the updated file.
 
 ## Licensing
-RefreshView is a remixed version of [Min browser](https://minbrowser.org), made possible by: 
-
-| [<img src="https://avatars.githubusercontent.com/u/6592155?v=4" width="40">](https://github.com/blackgwe) | [<img src="https://avatars.githubusercontent.com/u/49724477?v=4" width="40">](https://github.com/rafel-ioli) |[<img src="https://avatars.githubusercontent.com/u/237596?v=4" width="40">](https://github.com/idoru) |     |
-| ----------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |--------------------------------------------------------------------------------------------------------------- | --- |
-| [@blackgwe](https://github.com/blackgwe)                                                                            | [@rafel-ioli](https://github.com/rafel-ioli)                                                                        |[@idoru](https://github.com/idoru)                                                                        ||
-
-[Sponsor Min Development](https://github.com/sponsors/PalmerAL)
+RefreshView is a remixed version of [Min browser](https://minbrowser.org) by [PalmerAL](https://github.com/sponsors/PalmerAL). [Sponsor Min Development](https://github.com/sponsors/PalmerAL)
 
 RefreshView is licensed under [Apache License version 2.0](LICENSE.txt)
