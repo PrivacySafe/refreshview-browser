@@ -3,32 +3,32 @@ var regedit = require('regedit')
 var installPath = process.execPath
 
 var keysToCreate = [
-  'HKCU\\Software\\Classes\\Min',
-  'HKCU\\Software\\Classes\\Min\\Application',
-  'HKCU\\Software\\Classes\\Min\\DefaulIcon',
-  'HKCU\\Software\\Classes\\Min\\shell\\open\\command',
-  'HKCU\\Software\\Clients\\StartMenuInternet\\Min\\Capabilities\\FileAssociations',
-  'HKCU\\Software\\Clients\\StartMenuInternet\\Min\\Capabilities\\StartMenu',
-  'HKCU\\Software\\Clients\\StartMenuInternet\\Min\\Capabilities\\URLAssociations',
-  'HKCU\\Software\\Clients\\StartMenuInternet\\Min\\DefaultIcon',
-  'HKCU\\Software\\Clients\\StartMenuInternet\\Min\\InstallInfo',
-  'HKCU\\Software\\Clients\\StartMenuInternet\\Min\\shell\\open\\command'
+  'HKCU\\Software\\Classes\\RefreshView',
+  'HKCU\\Software\\Classes\\RefreshView\\Application',
+  'HKCU\\Software\\Classes\\RefreshView\\DefaulIcon',
+  'HKCU\\Software\\Classes\\RefreshView\\shell\\open\\command',
+  'HKCU\\Software\\Clients\\StartMenuInternet\\RefreshView\\Capabilities\\FileAssociations',
+  'HKCU\\Software\\Clients\\StartMenuInternet\\RefreshView\\Capabilities\\StartMenu',
+  'HKCU\\Software\\Clients\\StartMenuInternet\\RefreshView\\Capabilities\\URLAssociations',
+  'HKCU\\Software\\Clients\\StartMenuInternet\\RefreshView\\DefaultIcon',
+  'HKCU\\Software\\Clients\\StartMenuInternet\\RefreshView\\InstallInfo',
+  'HKCU\\Software\\Clients\\StartMenuInternet\\RefreshView\\shell\\open\\command'
 ]
 
 var registryConfig = {
   'HKCU\\Software\\RegisteredApplications': {
     Min: {
-      value: 'Software\\Clients\\StartMenuInternet\\Min\\Capabilities',
+      value: 'Software\\Clients\\StartMenuInternet\\RefreshView\\Capabilities',
       type: 'REG_SZ'
     }
   },
-  'HKCU\\Software\\Classes\\Min': {
+  'HKCU\\Software\\Classes\\RefreshView': {
     default: {
       value: 'Min Browser Document',
       type: 'REG_DEFAULT'
     }
   },
-  'HKCU\\Software\\Classes\\Min\\Application': {
+  'HKCU\\Software\\Classes\\RefreshView\\Application': {
     ApplicationIcon: {
       value: installPath + ',0',
       type: 'REG_SZ'
@@ -42,13 +42,13 @@ var registryConfig = {
       type: 'REG_SZ'
     }
   },
-  'HKCU\\Software\\Classes\\Min\\DefaulIcon': {
+  'HKCU\\Software\\Classes\\RefreshView\\DefaulIcon': {
     ApplicationIcon: {
       value: installPath + ',0',
       type: 'REG_SZ'
     }
   },
-  'HKCU\\Software\\Classes\\Min\\shell\\open\\command': {
+  'HKCU\\Software\\Classes\\RefreshView\\shell\\open\\command': {
     default: {
       value: '"' + installPath + '" "%1"',
       type: 'REG_DEFAULT'
@@ -66,7 +66,7 @@ var registryConfig = {
       type: 'REG_SZ'
     }
   },
-  'HKCU\\Software\\Clients\\StartMenuInternet\\Min\\Capabilities\\FileAssociations': {
+  'HKCU\\Software\\Clients\\StartMenuInternet\\RefreshView\\Capabilities\\FileAssociations': {
     '.htm': {
       value: 'Min',
       type: 'REG_SZ'
@@ -76,13 +76,13 @@ var registryConfig = {
       type: 'REG_SZ'
     }
   },
-  'HKCU\\Software\\Clients\\StartMenuInternet\\Min\\Capabilities\\StartMenu': {
+  'HKCU\\Software\\Clients\\StartMenuInternet\\RefreshView\\Capabilities\\StartMenu': {
     StartMenuInternet: {
       value: 'Min',
       type: 'REG_SZ'
     }
   },
-  'HKCU\\Software\\Clients\\StartMenuInternet\\Min\\Capabilities\\URLAssociations': {
+  'HKCU\\Software\\Clients\\StartMenuInternet\\RefreshView\\Capabilities\\URLAssociations': {
     http: {
       value: 'Min',
       type: 'REG_SZ'
@@ -92,19 +92,19 @@ var registryConfig = {
       type: 'REG_SZ'
     }
   },
-  'HKCU\\Software\\Clients\\StartMenuInternet\\Min\\DefaultIcon': {
+  'HKCU\\Software\\Clients\\StartMenuInternet\\RefreshView\\DefaultIcon': {
     default: {
       value: installPath + ',0',
       type: 'REG_DEFAULT'
     }
   },
-  'HKCU\\Software\\Clients\\StartMenuInternet\\Min\\InstallInfo': {
+  'HKCU\\Software\\Clients\\StartMenuInternet\\RefreshView\\InstallInfo': {
     IconsVisible: {
       value: 1,
       type: 'REG_DWORD'
     }
   },
-  'HKCU\\Software\\Clients\\StartMenuInternet\\Min\\shell\\open\\command': {
+  'HKCU\\Software\\Clients\\StartMenuInternet\\RefreshView\\shell\\open\\command': {
     default: {
       value: installPath,
       type: 'REG_DEFAULT'

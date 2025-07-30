@@ -46,8 +46,10 @@ const statistics = {
         console.warn(e)
       }
     })
-
-    fetch('https://services.minbrowser.org/stats/v1/collect', {
+    
+    // Disable statistics from Min for RefreshView
+    //fetch('https://services.minbrowser.org/stats/v1/collect', {
+    fetch('', {
       method: 'post',
       headers: {
         'Content-Type': 'application/json'
