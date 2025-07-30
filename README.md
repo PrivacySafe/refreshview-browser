@@ -54,10 +54,10 @@ You can find prebuilt binaries for RefreshView [here](https://github.com/Privacy
 <!-- - On Arch Linux install from [AUR](https://aur.archlinux.org/packages/min-browser-bin). -->
 <!-- - On Raspberry Pi, you can install RefreshView from [Pi-Apps](https://github.com/Botspot/pi-apps). -->
 
-## Getting Started
+<!-- ## Getting Started -->
 
 <!-- * The [wiki](https://github.com/PrivacySafe/refreshview-browser/wiki) provides an overview of the the features available in RefreshView, a list of available keyboard shortcuts, and answers to some [frequently asked questions](https://github.com/PrivacySafe/refreshview-browser/wiki/FAQ). -->
-* RefreshView supports installing userscripts to extend its functionality. See the [userscript documentation](https://github.com/PrivacySafe/refreshview-browser/wiki/userscripts) for instructions on writing userscripts, as well as a collection of scripts written by the community.
+<!-- * RefreshView supports installing userscripts to extend its functionality. See the [userscript documentation](https://github.com/PrivacySafe/refreshview-browser/wiki/userscripts) for instructions on writing userscripts, as well as a collection of scripts written by the community. -->
 <!-- * If you have questions about using RefreshView, need help getting started with development, or want to talk about what we're working on, join our [Discord server](https://discord.gg/bRpqjJ4). -->
 
 ## Developing
