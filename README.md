@@ -118,6 +118,6 @@ If you're experiencing a bug or have a suggestion for how to improve RefreshView
 - Make a pull request with the updated file.
 
 ## Licensing
-RefreshView is a remixed version of [Min browser](https://minbrowser.org) by [PalmerAL](https://github.com/sponsors/PalmerAL). [Sponsor Min Development](https://github.com/sponsors/PalmerAL)
+© 2025-present <a href="https://ivycyber.com" target="_blank">Ivy Cyber LLC</a>. This project is dedicated to ethical <a href="https://fsf.org" target="_blank" rel="noreferrer noopener">Free and Open Source Software</a> and <a href="https://oshwa.org" target="_blank" rel="noreferrer noopener">Open Source Hardware</a>. PrivacySafe® is a registered trademark.
 
-RefreshView is licensed under [Apache License version 2.0](LICENSE.txt)
+Released under the [Apache License version 2.0](LICENSE.txt). See [LICENSE](LICENSE.txt) for more information. RefreshView is a remixed version of [Min browser](https://minbrowser.org) by [PalmerAL](https://github.com/sponsors/PalmerAL). [Sponsor Min Development](https://github.com/sponsors/PalmerAL)
